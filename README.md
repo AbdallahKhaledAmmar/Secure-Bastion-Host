@@ -1,8 +1,8 @@
 # Secure Linux Bastion Host & Process Management
 
-Elevvo Cloud & DevOps Track, Module 1. Environment: Ubuntu 24.04 on WSL2 (systemd enabled), isolated lab distro.
+Environment: Ubuntu 24.04 on WSL2 (systemd enabled), isolated lab distro.
 
-> Note: WSL2 sits behind NAT, so the optional Tailscale bonus was skipped.
+> Note: WSL2 sits behind NAT.
 
 ## 1. SSH key generation (Ed25519, passphrase-protected)
 `ssh-keygen -t ed25519 -C "abdallah@bastion"`, then `ssh-copy-id`.
