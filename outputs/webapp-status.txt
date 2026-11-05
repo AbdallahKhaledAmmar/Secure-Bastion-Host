@@ -1,0 +1,13 @@
+● webapp.service - Simple Python HTTP server
+     Loaded: loaded (/etc/systemd/system/webapp.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-11-05 07:10:36 EET; 22min ago
+   Main PID: 2013 (python3)
+      Tasks: 1 (limit: 9431)
+     Memory: 9.3M (peak: 9.6M)
+        CPU: 262ms
+     CGroup: /system.slice/webapp.service
+             └─2013 /usr/bin/python3 -m http.server 8080
+
+Nov 05 07:10:33 spectre systemd[1]: webapp.service: Failed with result 'signal'.
+Nov 05 07:10:36 spectre systemd[1]: webapp.service: Scheduled restart job, restart counter is at 1.
+Nov 05 07:10:36 spectre systemd[1]: Started webapp.service - Simple Python HTTP server.

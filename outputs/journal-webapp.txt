@@ -1,0 +1,6 @@
+Nov 05 07:03:23 spectre systemd[1]: Started webapp.service - Simple Python HTTP server.
+Nov 05 07:04:11 spectre python3[1996]: 127.0.0.1 - - [05/Nov/2026 07:04:11] "GET / HTTP/1.1" 200 -
+Nov 05 07:10:33 spectre systemd[1]: webapp.service: Main process exited, code=killed, status=9/KILL
+Nov 05 07:10:33 spectre systemd[1]: webapp.service: Failed with result 'signal'.
+Nov 05 07:10:36 spectre systemd[1]: webapp.service: Scheduled restart job, restart counter is at 1.
+Nov 05 07:10:36 spectre systemd[1]: Started webapp.service - Simple Python HTTP server.

@@ -1,0 +1,23 @@
+Nov 05 06:30:02 spectre systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 05 06:30:02 spectre sshd[1620]: Server listening on 0.0.0.0 port 22.
+Nov 05 06:30:02 spectre sshd[1620]: Server listening on :: port 22.
+Nov 05 06:30:02 spectre systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 05 06:41:02 spectre sshd[1659]: Connection closed by authenticating user pc 127.0.0.1 port 35742 [preauth]
+Nov 05 06:41:02 spectre sshd[1666]: Connection closed by authenticating user pc 127.0.0.1 port 47720 [preauth]
+Nov 05 06:41:24 spectre sshd[1678]: Accepted password for pc from 127.0.0.1 port 47732 ssh2
+Nov 05 06:41:24 spectre sshd[1678]: pam_unix(sshd:session): session opened for user pc(uid=1000) by pc(uid=0)
+Nov 05 06:41:24 spectre sshd[1678]: pam_unix(sshd:session): session closed for user pc
+Nov 05 06:42:03 spectre sshd[1733]: Accepted publickey for pc from 127.0.0.1 port 55772 ssh2: ED25519 SHA256:5eGT97PkD9oJGaxQU6SnHvDYbKgaVPp4/J3E2+avDFU
+Nov 05 06:42:03 spectre sshd[1733]: pam_unix(sshd:session): session opened for user pc(uid=1000) by pc(uid=0)
+Nov 05 06:52:26 spectre sshd[1620]: Received signal 15; terminating.
+Nov 05 06:52:26 spectre systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Nov 05 06:52:26 spectre systemd[1]: ssh.service: Deactivated successfully.
+Nov 05 06:52:26 spectre systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Nov 05 06:52:26 spectre systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 05 06:52:26 spectre sshd[1797]: Server listening on 0.0.0.0 port 22.
+Nov 05 06:52:26 spectre sshd[1797]: Server listening on :: port 22.
+Nov 05 06:52:26 spectre systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 05 06:55:40 spectre sshd[1803]: Accepted publickey for pc from 127.0.0.1 port 43012 ssh2: ED25519 SHA256:5eGT97PkD9oJGaxQU6SnHvDYbKgaVPp4/J3E2+avDFU
+Nov 05 06:55:40 spectre sshd[1803]: pam_unix(sshd:session): session opened for user pc(uid=1000) by pc(uid=0)
+Nov 05 06:55:59 spectre sshd[1859]: Connection closed by authenticating user pc 127.0.0.1 port 44332 [preauth]
+Nov 05 06:56:11 spectre sshd[1862]: Connection closed by authenticating user root 127.0.0.1 port 37948 [preauth]
